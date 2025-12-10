@@ -10,9 +10,22 @@
 }
 
 /* --- RESET GERAL --- */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { font-family: var(--body-font); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+body { 
+    font-family: var(--body-font); 
+    color: var(--text); 
+    line-height: 1.6; 
+    overflow-x: hidden; 
+}
 
 /* --- UTILITÁRIOS --- */
 .container {
@@ -20,25 +33,43 @@ body { font-family: var(--body-font); color: var(--text); line-height: 1.6; over
     margin: 0 auto;
     padding: 0 20px;
 }
-img { max-width: 100%; display: block; }
-h1, h2, h3, h4 { font-family: var(--heading-font); color: var(--primary); }
-a { text-decoration: none; }
+img { 
+    max-width: 100%; 
+    display: block; 
+}
+
+h1, h2, h3, h4 { 
+    font-family: var(--heading-font);
+    color: var(--primary); 
+}
+
+a { 
+    text-decoration: none; 
+}
 
 /* --- BOTÕES --- */
 .btn-cta {
     display: inline-block;
     background-color: var(--primary);
     color: var(--white);
-    padding: 15px 32px;
+    padding: 30px 50px;
     border-radius: 50px;
     font-weight: 600;
     transition: 0.3s;
     box-shadow: 0 4px 14px rgba(10, 36, 99, 0.25);
     text-align: center;
     margin-top: 15px;
+    font-size: 20px;
 }
-.btn-cta:hover { background-color: var(--accent); transform: translateY(-3px); }
-.small-btn { padding: 10px 25px; font-size: 0.9rem; }
+.btn-cta:hover { 
+    background-color: var(--accent); 
+    transform: translateY(-3px); 
+}
+
+.small-btn { 
+    padding: 10px 25px; 
+    font-size: 0.9rem; 
+}
 
 /* --- HEADER & NAV --- */
 header {
