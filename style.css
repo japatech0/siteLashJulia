@@ -3,7 +3,8 @@
    ========================================= */
 :root {
     /* Paleta de Cores Refinada */
-    --primary: #1a3d63;       /* Azul Profundo (Luxo) */
+    --primary: #729cd3;
+    --cta:#2e77c4;       /* Azul Profundo (Luxo) */
     --primary-hover: #122c4f; 
     --secondary: #d4a373;     /* Tom Dourado/Bege para detalhes (opcional) */
     --text-dark: #333333;
@@ -67,7 +68,7 @@ section { padding: 90px 0; }
     align-items: center;
     margin-top: 25px;
     gap: 20px;
-    background-color: var(--primary);
+    background-color: var(--cta);
     color: var(--white);
     padding: 16px 40px;
     border-radius: 50px;
@@ -107,7 +108,7 @@ header {
 .nav-links a { color: var(--text-dark); font-weight: 500; font-size: 0.95rem; }
 .nav-links a:hover { color: var(--primary); }
 .nav-links .btn-nav {
-    background: var(--primary); color: var(--white);
+    background: var(--cta); color: var(--white);
     padding: 10px 25px; border-radius: 30px;
 }
 .mobile-menu-icon { display: none; font-size: 1.5rem; color: var(--primary); cursor: pointer; }
@@ -457,7 +458,7 @@ footer {
 }
 
 .btn-cta-luxury {
-    background-color: var(--primary); /* Azul marinho profundo */
+    background-color: var(--cta); /* Azul marinho profundo */
     color: var(--white) !important;   /* Garante que o texto fique branco */
     padding: 16px 35px;               /* Espaçamento interno */
     border-radius: 50px;              /* Deixa o botão arredondado (estilo pílula) */
